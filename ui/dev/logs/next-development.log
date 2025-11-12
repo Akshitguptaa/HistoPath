@@ -1,0 +1,2125 @@
+[00:00:01.821] Server  LOG      ✓ Ready in 1345ms
+[00:00:04.848] Server  LOG      ○ Compiling / ...
+[00:01:47.122] Server  LOG      ✓ Compiled in 107ms
+[00:05:18.007] Server  LOG      ✓ Compiled in 801ms
+[00:05:45.527] Server  LOG      ✓ Compiled in 88ms
+[00:05:57.546] Server  LOG      ✓ Compiled in 71ms
+[00:06:09.074] Server  LOG      ✓ Compiled in 108ms
+[00:06:23.035] Server  LOG      ✓ Compiled in 90ms
+[00:08:35.569] Server  LOG      ✓ Compiled in 32ms
+[00:09:49.606] Server  LOG      ✓ Compiled in 38ms
+[00:29:22.464] Server  LOG      ✓ Compiled in 80ms
+[00:32:08.315] Server  LOG      ✓ Compiled in 41ms
+[00:32:22.771] Server  LOG      ✓ Compiled in 27ms
+[01:17:48.161] Server  LOG      ✓ Compiled in 906ms
+[02:48:49.457] Server  LOG        Reload env: .env
+[02:48:52.850] Server  LOG        Reload env: .env
+[02:49:06.348] Server  LOG        Reload env: .env
+[02:49:07.608] Server  LOG        Reload env: .env
+[03:55:05.532] Server  LOG      ✓ Compiled in 35ms
+[03:55:07.773] Server  LOG      ✓ Compiled in 30ms
+[03:55:09.043] Server  LOG      ✓ Compiled in 26ms
+[03:55:22.789] Server  LOG      ✓ Compiled in 43ms
+[03:55:31.372] Server  LOG      ✓ Compiled in 26ms
+[03:55:45.477] Server  LOG      ✓ Compiled in 30ms
+[03:55:47.497] Server  LOG      ✓ Compiled in 26ms
+[03:56:30.706] Server  LOG      ✓ Compiled in 30ms
+[03:56:42.798] Server  LOG      ✓ Compiled in 37ms
+[03:57:00.284] Server  LOG      ✓ Compiled in 39ms
+[03:57:16.882] Server  LOG      ✓ Compiled in 35ms
+[03:57:19.583] Server  LOG      ✓ Compiled in 29ms
+[03:57:27.356] Server  LOG      ✓ Compiled in 119ms
+[04:11:27.993] Server  LOG      ✓ Compiled in 1808ms
+[04:11:31.503] Server  LOG      ✓ Compiled in 53ms
+[04:11:34.850] Server  LOG      ✓ Compiled in 49ms
+[04:11:37.249] Server  LOG      ✓ Compiled in 43ms
+[04:11:41.870] Server  LOG      ✓ Compiled in 36ms
+[04:11:43.039] Server  LOG      ✓ Compiled in 38ms
+[04:11:44.553] Server  LOG      ✓ Compiled in 35ms
+[04:11:50.825] Server  LOG      ✓ Compiled in 38ms
+[04:11:53.738] Server  LOG      ✓ Compiled in 33ms
+[04:11:57.556] Server  LOG      ✓ Compiled in 41ms
+[04:11:59.543] Server  LOG      ✓ Compiled in 31ms
+[04:12:01.984] Server  LOG      ✓ Compiled in 36ms
+[04:15:56.142] Server  ERROR    ⨯ ./histopath/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/Chatbot'
+  4 | import { Header } from '@/components/Header';
+  5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+> 6 | import { Chatbot } from '@/components/Chatbot';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+  8 |
+  9 | const Home: React.FC = () => {
+
+Import map: aliased to relative './components/Chatbot' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.145] Server  ERROR    ⨯ ./histopath/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/Chatbot'
+  4 | import { Header } from '@/components/Header';
+  5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+> 6 | import { Chatbot } from '@/components/Chatbot';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+  8 |
+  9 | const Home: React.FC = () => {
+
+Import map: aliased to relative './components/Chatbot' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.148] Server  ERROR    ⨯ ./histopath/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/Chatbot'
+  4 | import { Header } from '@/components/Header';
+  5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+> 6 | import { Chatbot } from '@/components/Chatbot';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+  8 |
+  9 | const Home: React.FC = () => {
+
+Import map: aliased to relative './components/Chatbot' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.153] Server  ERROR    ⨯ ./histopath/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/Chatbot'
+  4 | import { Header } from '@/components/Header';
+  5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+> 6 | import { Chatbot } from '@/components/Chatbot';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+  8 |
+  9 | const Home: React.FC = () => {
+
+Import map: aliased to relative './components/Chatbot' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.155] Server  ERROR    ⨯ ./histopath/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/Header'
+  2 |
+  3 | import React, { useState, useCallback } from 'react';
+> 4 | import { Header } from '@/components/Header';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+  6 | import { Chatbot } from '@/components/Chatbot';
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+
+Import map: aliased to relative './components/Header' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.157] Server  ERROR    ⨯ ./histopath/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/Header'
+  2 |
+  3 | import React, { useState, useCallback } from 'react';
+> 4 | import { Header } from '@/components/Header';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+  6 | import { Chatbot } from '@/components/Chatbot';
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+
+Import map: aliased to relative './components/Header' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.158] Server  ERROR    ⨯ ./histopath/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/Header'
+  2 |
+  3 | import React, { useState, useCallback } from 'react';
+> 4 | import { Header } from '@/components/Header';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+  6 | import { Chatbot } from '@/components/Chatbot';
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+
+Import map: aliased to relative './components/Header' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.159] Server  ERROR    ⨯ ./histopath/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/Header'
+  2 |
+  3 | import React, { useState, useCallback } from 'react';
+> 4 | import { Header } from '@/components/Header';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+  6 | import { Chatbot } from '@/components/Chatbot';
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+
+Import map: aliased to relative './components/Header' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.162] Server  ERROR    ⨯ ./histopath/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/ImageAnalyzer'
+  3 | import React, { useState, useCallback } from 'react';
+  4 | import { Header } from '@/components/Header';
+> 5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Chatbot } from '@/components/Chatbot';
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+  8 |
+
+Import map: aliased to relative './components/ImageAnalyzer' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.163] Server  ERROR    ⨯ ./histopath/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/ImageAnalyzer'
+  3 | import React, { useState, useCallback } from 'react';
+  4 | import { Header } from '@/components/Header';
+> 5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Chatbot } from '@/components/Chatbot';
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+  8 |
+
+Import map: aliased to relative './components/ImageAnalyzer' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.165] Server  ERROR    ⨯ ./histopath/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/ImageAnalyzer'
+  3 | import React, { useState, useCallback } from 'react';
+  4 | import { Header } from '@/components/Header';
+> 5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Chatbot } from '@/components/Chatbot';
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+  8 |
+
+Import map: aliased to relative './components/ImageAnalyzer' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.166] Server  ERROR    ⨯ ./histopath/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/ImageAnalyzer'
+  3 | import React, { useState, useCallback } from 'react';
+  4 | import { Header } from '@/components/Header';
+> 5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Chatbot } from '@/components/Chatbot';
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+  8 |
+
+Import map: aliased to relative './components/ImageAnalyzer' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.167] Server  ERROR    ⨯ ./histopath/app/layout.tsx:4:1
+Module not found: Can't resolve '@/components/theme-provider'
+  2 | import { Inter } from "next/font/google";
+  3 | import "./globals.css";
+> 4 | import { ThemeProvider } from "@/components/theme-provider"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const inter = Inter({ subsets: ["latin"] });
+  7 |
+
+Import map: aliased to relative './components/theme-provider' inside of [project]/histopath
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.168] Server  ERROR    ⨯ ./histopath/app/layout.tsx:4:1
+Module not found: Can't resolve '@/components/theme-provider'
+  2 | import { Inter } from "next/font/google";
+  3 | import "./globals.css";
+> 4 | import { ThemeProvider } from "@/components/theme-provider"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const inter = Inter({ subsets: ["latin"] });
+  7 |
+
+Import map: aliased to relative './components/theme-provider' inside of [project]/histopath
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.200] Server  ERROR    ⨯ ./histopath/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/Chatbot'
+  4 | import { Header } from '@/components/Header';
+  5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+> 6 | import { Chatbot } from '@/components/Chatbot';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+  8 |
+  9 | const Home: React.FC = () => {
+
+Import map: aliased to relative './components/Chatbot' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.202] Server  ERROR    ⨯ ./histopath/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/Chatbot'
+  4 | import { Header } from '@/components/Header';
+  5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+> 6 | import { Chatbot } from '@/components/Chatbot';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+  8 |
+  9 | const Home: React.FC = () => {
+
+Import map: aliased to relative './components/Chatbot' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.204] Server  ERROR    ⨯ ./histopath/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/Chatbot'
+  4 | import { Header } from '@/components/Header';
+  5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+> 6 | import { Chatbot } from '@/components/Chatbot';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+  8 |
+  9 | const Home: React.FC = () => {
+
+Import map: aliased to relative './components/Chatbot' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.205] Server  ERROR    ⨯ ./histopath/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/Chatbot'
+  4 | import { Header } from '@/components/Header';
+  5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+> 6 | import { Chatbot } from '@/components/Chatbot';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+  8 |
+  9 | const Home: React.FC = () => {
+
+Import map: aliased to relative './components/Chatbot' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.208] Server  ERROR    ⨯ ./histopath/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/Header'
+  2 |
+  3 | import React, { useState, useCallback } from 'react';
+> 4 | import { Header } from '@/components/Header';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+  6 | import { Chatbot } from '@/components/Chatbot';
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+
+Import map: aliased to relative './components/Header' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.210] Server  ERROR    ⨯ ./histopath/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/Header'
+  2 |
+  3 | import React, { useState, useCallback } from 'react';
+> 4 | import { Header } from '@/components/Header';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+  6 | import { Chatbot } from '@/components/Chatbot';
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+
+Import map: aliased to relative './components/Header' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.211] Server  ERROR    ⨯ ./histopath/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/Header'
+  2 |
+  3 | import React, { useState, useCallback } from 'react';
+> 4 | import { Header } from '@/components/Header';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+  6 | import { Chatbot } from '@/components/Chatbot';
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+
+Import map: aliased to relative './components/Header' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.214] Server  ERROR    ⨯ ./histopath/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/Header'
+  2 |
+  3 | import React, { useState, useCallback } from 'react';
+> 4 | import { Header } from '@/components/Header';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+  6 | import { Chatbot } from '@/components/Chatbot';
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+
+Import map: aliased to relative './components/Header' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.216] Server  ERROR    ⨯ ./histopath/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/ImageAnalyzer'
+  3 | import React, { useState, useCallback } from 'react';
+  4 | import { Header } from '@/components/Header';
+> 5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Chatbot } from '@/components/Chatbot';
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+  8 |
+
+Import map: aliased to relative './components/ImageAnalyzer' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.217] Server  ERROR    ⨯ ./histopath/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/ImageAnalyzer'
+  3 | import React, { useState, useCallback } from 'react';
+  4 | import { Header } from '@/components/Header';
+> 5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Chatbot } from '@/components/Chatbot';
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+  8 |
+
+Import map: aliased to relative './components/ImageAnalyzer' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.219] Server  ERROR    ⨯ ./histopath/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/ImageAnalyzer'
+  3 | import React, { useState, useCallback } from 'react';
+  4 | import { Header } from '@/components/Header';
+> 5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Chatbot } from '@/components/Chatbot';
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+  8 |
+
+Import map: aliased to relative './components/ImageAnalyzer' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.220] Server  ERROR    ⨯ ./histopath/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/ImageAnalyzer'
+  3 | import React, { useState, useCallback } from 'react';
+  4 | import { Header } from '@/components/Header';
+> 5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Chatbot } from '@/components/Chatbot';
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+  8 |
+
+Import map: aliased to relative './components/ImageAnalyzer' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.221] Server  ERROR    ⨯ ./histopath/app/layout.tsx:4:1
+Module not found: Can't resolve '@/components/theme-provider'
+  2 | import { Inter } from "next/font/google";
+  3 | import "./globals.css";
+> 4 | import { ThemeProvider } from "@/components/theme-provider"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const inter = Inter({ subsets: ["latin"] });
+  7 |
+
+Import map: aliased to relative './components/theme-provider' inside of [project]/histopath
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.224] Server  ERROR    ⨯ ./histopath/app/layout.tsx:4:1
+Module not found: Can't resolve '@/components/theme-provider'
+  2 | import { Inter } from "next/font/google";
+  3 | import "./globals.css";
+> 4 | import { ThemeProvider } from "@/components/theme-provider"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const inter = Inter({ subsets: ["latin"] });
+  7 |
+
+Import map: aliased to relative './components/theme-provider' inside of [project]/histopath
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.228] Server  ERROR    ⨯ ./histopath/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/Chatbot'
+  4 | import { Header } from '@/components/Header';
+  5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+> 6 | import { Chatbot } from '@/components/Chatbot';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+  8 |
+  9 | const Home: React.FC = () => {
+
+Import map: aliased to relative './components/Chatbot' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.230] Server  ERROR    ⨯ ./histopath/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/Chatbot'
+  4 | import { Header } from '@/components/Header';
+  5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+> 6 | import { Chatbot } from '@/components/Chatbot';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+  8 |
+  9 | const Home: React.FC = () => {
+
+Import map: aliased to relative './components/Chatbot' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.232] Server  ERROR    ⨯ ./histopath/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/Chatbot'
+  4 | import { Header } from '@/components/Header';
+  5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+> 6 | import { Chatbot } from '@/components/Chatbot';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+  8 |
+  9 | const Home: React.FC = () => {
+
+Import map: aliased to relative './components/Chatbot' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.234] Server  ERROR    ⨯ ./histopath/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/Chatbot'
+  4 | import { Header } from '@/components/Header';
+  5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+> 6 | import { Chatbot } from '@/components/Chatbot';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+  8 |
+  9 | const Home: React.FC = () => {
+
+Import map: aliased to relative './components/Chatbot' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.237] Server  ERROR    ⨯ ./histopath/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/Header'
+  2 |
+  3 | import React, { useState, useCallback } from 'react';
+> 4 | import { Header } from '@/components/Header';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+  6 | import { Chatbot } from '@/components/Chatbot';
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+
+Import map: aliased to relative './components/Header' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.239] Server  ERROR    ⨯ ./histopath/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/Header'
+  2 |
+  3 | import React, { useState, useCallback } from 'react';
+> 4 | import { Header } from '@/components/Header';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+  6 | import { Chatbot } from '@/components/Chatbot';
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+
+Import map: aliased to relative './components/Header' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.241] Server  ERROR    ⨯ ./histopath/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/Header'
+  2 |
+  3 | import React, { useState, useCallback } from 'react';
+> 4 | import { Header } from '@/components/Header';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+  6 | import { Chatbot } from '@/components/Chatbot';
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+
+Import map: aliased to relative './components/Header' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.243] Server  ERROR    ⨯ ./histopath/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/Header'
+  2 |
+  3 | import React, { useState, useCallback } from 'react';
+> 4 | import { Header } from '@/components/Header';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+  6 | import { Chatbot } from '@/components/Chatbot';
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+
+Import map: aliased to relative './components/Header' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.245] Server  ERROR    ⨯ ./histopath/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/ImageAnalyzer'
+  3 | import React, { useState, useCallback } from 'react';
+  4 | import { Header } from '@/components/Header';
+> 5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Chatbot } from '@/components/Chatbot';
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+  8 |
+
+Import map: aliased to relative './components/ImageAnalyzer' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.248] Server  ERROR    ⨯ ./histopath/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/ImageAnalyzer'
+  3 | import React, { useState, useCallback } from 'react';
+  4 | import { Header } from '@/components/Header';
+> 5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Chatbot } from '@/components/Chatbot';
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+  8 |
+
+Import map: aliased to relative './components/ImageAnalyzer' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.249] Server  ERROR    ⨯ ./histopath/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/ImageAnalyzer'
+  3 | import React, { useState, useCallback } from 'react';
+  4 | import { Header } from '@/components/Header';
+> 5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Chatbot } from '@/components/Chatbot';
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+  8 |
+
+Import map: aliased to relative './components/ImageAnalyzer' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.251] Server  ERROR    ⨯ ./histopath/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/ImageAnalyzer'
+  3 | import React, { useState, useCallback } from 'react';
+  4 | import { Header } from '@/components/Header';
+> 5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Chatbot } from '@/components/Chatbot';
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+  8 |
+
+Import map: aliased to relative './components/ImageAnalyzer' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.252] Server  ERROR    ⨯ ./histopath/app/layout.tsx:4:1
+Module not found: Can't resolve '@/components/theme-provider'
+  2 | import { Inter } from "next/font/google";
+  3 | import "./globals.css";
+> 4 | import { ThemeProvider } from "@/components/theme-provider"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const inter = Inter({ subsets: ["latin"] });
+  7 |
+
+Import map: aliased to relative './components/theme-provider' inside of [project]/histopath
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.253] Server  ERROR    ⨯ ./histopath/app/layout.tsx:4:1
+Module not found: Can't resolve '@/components/theme-provider'
+  2 | import { Inter } from "next/font/google";
+  3 | import "./globals.css";
+> 4 | import { ThemeProvider } from "@/components/theme-provider"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const inter = Inter({ subsets: ["latin"] });
+  7 |
+
+Import map: aliased to relative './components/theme-provider' inside of [project]/histopath
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.264] Server  LOG      ✓ Compiled in 271ms
+[04:15:56.269] Server  ERROR    ⨯ ./histopath/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/Chatbot'
+  4 | import { Header } from '@/components/Header';
+  5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+> 6 | import { Chatbot } from '@/components/Chatbot';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+  8 |
+  9 | const Home: React.FC = () => {
+
+Import map: aliased to relative './components/Chatbot' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.270] Server  ERROR    ⨯ ./histopath/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/Chatbot'
+  4 | import { Header } from '@/components/Header';
+  5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+> 6 | import { Chatbot } from '@/components/Chatbot';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+  8 |
+  9 | const Home: React.FC = () => {
+
+Import map: aliased to relative './components/Chatbot' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.272] Server  ERROR    ⨯ ./histopath/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/Chatbot'
+  4 | import { Header } from '@/components/Header';
+  5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+> 6 | import { Chatbot } from '@/components/Chatbot';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+  8 |
+  9 | const Home: React.FC = () => {
+
+Import map: aliased to relative './components/Chatbot' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.273] Server  ERROR    ⨯ ./histopath/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/Chatbot'
+  4 | import { Header } from '@/components/Header';
+  5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+> 6 | import { Chatbot } from '@/components/Chatbot';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+  8 |
+  9 | const Home: React.FC = () => {
+
+Import map: aliased to relative './components/Chatbot' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.276] Server  ERROR    ⨯ ./histopath/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/Header'
+  2 |
+  3 | import React, { useState, useCallback } from 'react';
+> 4 | import { Header } from '@/components/Header';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+  6 | import { Chatbot } from '@/components/Chatbot';
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+
+Import map: aliased to relative './components/Header' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.278] Server  ERROR    ⨯ ./histopath/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/Header'
+  2 |
+  3 | import React, { useState, useCallback } from 'react';
+> 4 | import { Header } from '@/components/Header';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+  6 | import { Chatbot } from '@/components/Chatbot';
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+
+Import map: aliased to relative './components/Header' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.279] Server  ERROR    ⨯ ./histopath/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/Header'
+  2 |
+  3 | import React, { useState, useCallback } from 'react';
+> 4 | import { Header } from '@/components/Header';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+  6 | import { Chatbot } from '@/components/Chatbot';
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+
+Import map: aliased to relative './components/Header' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.280] Server  ERROR    ⨯ ./histopath/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/Header'
+  2 |
+  3 | import React, { useState, useCallback } from 'react';
+> 4 | import { Header } from '@/components/Header';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+  6 | import { Chatbot } from '@/components/Chatbot';
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+
+Import map: aliased to relative './components/Header' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.282] Server  ERROR    ⨯ ./histopath/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/ImageAnalyzer'
+  3 | import React, { useState, useCallback } from 'react';
+  4 | import { Header } from '@/components/Header';
+> 5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Chatbot } from '@/components/Chatbot';
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+  8 |
+
+Import map: aliased to relative './components/ImageAnalyzer' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.284] Server  ERROR    ⨯ ./histopath/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/ImageAnalyzer'
+  3 | import React, { useState, useCallback } from 'react';
+  4 | import { Header } from '@/components/Header';
+> 5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Chatbot } from '@/components/Chatbot';
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+  8 |
+
+Import map: aliased to relative './components/ImageAnalyzer' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.286] Server  ERROR    ⨯ ./histopath/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/ImageAnalyzer'
+  3 | import React, { useState, useCallback } from 'react';
+  4 | import { Header } from '@/components/Header';
+> 5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Chatbot } from '@/components/Chatbot';
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+  8 |
+
+Import map: aliased to relative './components/ImageAnalyzer' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.723] Server  ERROR    ⨯ ./histopath/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/ImageAnalyzer'
+  3 | import React, { useState, useCallback } from 'react';
+  4 | import { Header } from '@/components/Header';
+> 5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Chatbot } from '@/components/Chatbot';
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+  8 |
+
+Import map: aliased to relative './components/ImageAnalyzer' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.725] Server  ERROR    ⨯ ./histopath/app/layout.tsx:4:1
+Module not found: Can't resolve '@/components/theme-provider'
+  2 | import { Inter } from "next/font/google";
+  3 | import "./globals.css";
+> 4 | import { ThemeProvider } from "@/components/theme-provider"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const inter = Inter({ subsets: ["latin"] });
+  7 |
+
+Import map: aliased to relative './components/theme-provider' inside of [project]/histopath
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.726] Server  ERROR    ⨯ ./histopath/app/layout.tsx:4:1
+Module not found: Can't resolve '@/components/theme-provider'
+  2 | import { Inter } from "next/font/google";
+  3 | import "./globals.css";
+> 4 | import { ThemeProvider } from "@/components/theme-provider"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const inter = Inter({ subsets: ["latin"] });
+  7 |
+
+Import map: aliased to relative './components/theme-provider' inside of [project]/histopath
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.733] Server  ERROR    ⨯ ./histopath/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/Chatbot'
+  4 | import { Header } from '@/components/Header';
+  5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+> 6 | import { Chatbot } from '@/components/Chatbot';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+  8 |
+  9 | const Home: React.FC = () => {
+
+Import map: aliased to relative './components/Chatbot' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.735] Server  ERROR    ⨯ ./histopath/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/Chatbot'
+  4 | import { Header } from '@/components/Header';
+  5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+> 6 | import { Chatbot } from '@/components/Chatbot';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+  8 |
+  9 | const Home: React.FC = () => {
+
+Import map: aliased to relative './components/Chatbot' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.736] Server  ERROR    ⨯ ./histopath/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/Chatbot'
+  4 | import { Header } from '@/components/Header';
+  5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+> 6 | import { Chatbot } from '@/components/Chatbot';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+  8 |
+  9 | const Home: React.FC = () => {
+
+Import map: aliased to relative './components/Chatbot' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.738] Server  ERROR    ⨯ ./histopath/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/Chatbot'
+  4 | import { Header } from '@/components/Header';
+  5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+> 6 | import { Chatbot } from '@/components/Chatbot';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+  8 |
+  9 | const Home: React.FC = () => {
+
+Import map: aliased to relative './components/Chatbot' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.739] Server  ERROR    ⨯ ./histopath/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/Header'
+  2 |
+  3 | import React, { useState, useCallback } from 'react';
+> 4 | import { Header } from '@/components/Header';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+  6 | import { Chatbot } from '@/components/Chatbot';
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+
+Import map: aliased to relative './components/Header' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.741] Server  ERROR    ⨯ ./histopath/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/Header'
+  2 |
+  3 | import React, { useState, useCallback } from 'react';
+> 4 | import { Header } from '@/components/Header';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+  6 | import { Chatbot } from '@/components/Chatbot';
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+
+Import map: aliased to relative './components/Header' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.743] Server  ERROR    ⨯ ./histopath/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/Header'
+  2 |
+  3 | import React, { useState, useCallback } from 'react';
+> 4 | import { Header } from '@/components/Header';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+  6 | import { Chatbot } from '@/components/Chatbot';
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+
+Import map: aliased to relative './components/Header' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.744] Server  ERROR    ⨯ ./histopath/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/Header'
+  2 |
+  3 | import React, { useState, useCallback } from 'react';
+> 4 | import { Header } from '@/components/Header';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+  6 | import { Chatbot } from '@/components/Chatbot';
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+
+Import map: aliased to relative './components/Header' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.746] Server  ERROR    ⨯ ./histopath/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/ImageAnalyzer'
+  3 | import React, { useState, useCallback } from 'react';
+  4 | import { Header } from '@/components/Header';
+> 5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Chatbot } from '@/components/Chatbot';
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+  8 |
+
+Import map: aliased to relative './components/ImageAnalyzer' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.748] Server  ERROR    ⨯ ./histopath/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/ImageAnalyzer'
+  3 | import React, { useState, useCallback } from 'react';
+  4 | import { Header } from '@/components/Header';
+> 5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Chatbot } from '@/components/Chatbot';
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+  8 |
+
+Import map: aliased to relative './components/ImageAnalyzer' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.750] Server  ERROR    ⨯ ./histopath/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/ImageAnalyzer'
+  3 | import React, { useState, useCallback } from 'react';
+  4 | import { Header } from '@/components/Header';
+> 5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Chatbot } from '@/components/Chatbot';
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+  8 |
+
+Import map: aliased to relative './components/ImageAnalyzer' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.752] Server  ERROR    ⨯ ./histopath/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/ImageAnalyzer'
+  3 | import React, { useState, useCallback } from 'react';
+  4 | import { Header } from '@/components/Header';
+> 5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Chatbot } from '@/components/Chatbot';
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+  8 |
+
+Import map: aliased to relative './components/ImageAnalyzer' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.754] Server  ERROR    ⨯ ./histopath/app/layout.tsx:4:1
+Module not found: Can't resolve '@/components/theme-provider'
+  2 | import { Inter } from "next/font/google";
+  3 | import "./globals.css";
+> 4 | import { ThemeProvider } from "@/components/theme-provider"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const inter = Inter({ subsets: ["latin"] });
+  7 |
+
+Import map: aliased to relative './components/theme-provider' inside of [project]/histopath
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.755] Server  ERROR    ⨯ ./histopath/app/layout.tsx:4:1
+Module not found: Can't resolve '@/components/theme-provider'
+  2 | import { Inter } from "next/font/google";
+  3 | import "./globals.css";
+> 4 | import { ThemeProvider } from "@/components/theme-provider"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const inter = Inter({ subsets: ["latin"] });
+  7 |
+
+Import map: aliased to relative './components/theme-provider' inside of [project]/histopath
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.759] Server  ERROR    ⨯ ./histopath/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/Chatbot'
+  4 | import { Header } from '@/components/Header';
+  5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+> 6 | import { Chatbot } from '@/components/Chatbot';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+  8 |
+  9 | const Home: React.FC = () => {
+
+Import map: aliased to relative './components/Chatbot' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.760] Server  ERROR    ⨯ ./histopath/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/Chatbot'
+  4 | import { Header } from '@/components/Header';
+  5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+> 6 | import { Chatbot } from '@/components/Chatbot';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+  8 |
+  9 | const Home: React.FC = () => {
+
+Import map: aliased to relative './components/Chatbot' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.763] Server  ERROR    ⨯ ./histopath/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/Chatbot'
+  4 | import { Header } from '@/components/Header';
+  5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+> 6 | import { Chatbot } from '@/components/Chatbot';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+  8 |
+  9 | const Home: React.FC = () => {
+
+Import map: aliased to relative './components/Chatbot' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.765] Server  ERROR    ⨯ ./histopath/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/Chatbot'
+  4 | import { Header } from '@/components/Header';
+  5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+> 6 | import { Chatbot } from '@/components/Chatbot';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+  8 |
+  9 | const Home: React.FC = () => {
+
+Import map: aliased to relative './components/Chatbot' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.767] Server  ERROR    ⨯ ./histopath/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/Header'
+  2 |
+  3 | import React, { useState, useCallback } from 'react';
+> 4 | import { Header } from '@/components/Header';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+  6 | import { Chatbot } from '@/components/Chatbot';
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+
+Import map: aliased to relative './components/Header' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.769] Server  ERROR    ⨯ ./histopath/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/Header'
+  2 |
+  3 | import React, { useState, useCallback } from 'react';
+> 4 | import { Header } from '@/components/Header';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+  6 | import { Chatbot } from '@/components/Chatbot';
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+
+Import map: aliased to relative './components/Header' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.770] Server  ERROR    ⨯ ./histopath/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/Header'
+  2 |
+  3 | import React, { useState, useCallback } from 'react';
+> 4 | import { Header } from '@/components/Header';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+  6 | import { Chatbot } from '@/components/Chatbot';
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+
+Import map: aliased to relative './components/Header' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.773] Server  ERROR    ⨯ ./histopath/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/Header'
+  2 |
+  3 | import React, { useState, useCallback } from 'react';
+> 4 | import { Header } from '@/components/Header';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+  6 | import { Chatbot } from '@/components/Chatbot';
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+
+Import map: aliased to relative './components/Header' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.775] Server  ERROR    ⨯ ./histopath/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/ImageAnalyzer'
+  3 | import React, { useState, useCallback } from 'react';
+  4 | import { Header } from '@/components/Header';
+> 5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Chatbot } from '@/components/Chatbot';
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+  8 |
+
+Import map: aliased to relative './components/ImageAnalyzer' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.777] Server  ERROR    ⨯ ./histopath/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/ImageAnalyzer'
+  3 | import React, { useState, useCallback } from 'react';
+  4 | import { Header } from '@/components/Header';
+> 5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Chatbot } from '@/components/Chatbot';
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+  8 |
+
+Import map: aliased to relative './components/ImageAnalyzer' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.778] Server  ERROR    ⨯ ./histopath/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/ImageAnalyzer'
+  3 | import React, { useState, useCallback } from 'react';
+  4 | import { Header } from '@/components/Header';
+> 5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Chatbot } from '@/components/Chatbot';
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+  8 |
+
+Import map: aliased to relative './components/ImageAnalyzer' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.779] Server  ERROR    ⨯ ./histopath/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/ImageAnalyzer'
+  3 | import React, { useState, useCallback } from 'react';
+  4 | import { Header } from '@/components/Header';
+> 5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Chatbot } from '@/components/Chatbot';
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+  8 |
+
+Import map: aliased to relative './components/ImageAnalyzer' inside of [project]/histopath
+
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.780] Server  ERROR    ⨯ ./histopath/app/layout.tsx:4:1
+Module not found: Can't resolve '@/components/theme-provider'
+  2 | import { Inter } from "next/font/google";
+  3 | import "./globals.css";
+> 4 | import { ThemeProvider } from "@/components/theme-provider"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const inter = Inter({ subsets: ["latin"] });
+  7 |
+
+Import map: aliased to relative './components/theme-provider' inside of [project]/histopath
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.783] Server  ERROR    ⨯ ./histopath/app/layout.tsx:4:1
+Module not found: Can't resolve '@/components/theme-provider'
+  2 | import { Inter } from "next/font/google";
+  3 | import "./globals.css";
+> 4 | import { ThemeProvider } from "@/components/theme-provider"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const inter = Inter({ subsets: ["latin"] });
+  7 |
+
+Import map: aliased to relative './components/theme-provider' inside of [project]/histopath
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[04:15:56.798] Server  LOG      ✓ Compiled in 106ms
+[04:15:56.857] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/home/sudolife/Documents/sudo/histopath/app'
+[04:15:56.870] Server  ERROR    ⨯ "unhandledRejection:" Error: ENOENT: no such file or directory, scandir '/home/sudolife/Documents/sudo/histopath/app'
+[04:15:56.879] Server  ERROR    ⨯ "unhandledRejection: " Error: ENOENT: no such file or directory, scandir '/home/sudolife/Documents/sudo/histopath/app'
+[04:15:56.885] Browser ERROR   ./histopath/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/Chatbot'
+  4 | import { Header } from '@/components/Header';
+  5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+> 6 | import { Chatbot } from '@/components/Chatbot';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+  8 |
+  9 | const Home: React.FC = () => {
+
+Import map: aliased to relative './components/Chatbot' inside of [project]/histopath
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[04:15:56.885] Browser ERROR   ./histopath/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/Header'
+  2 |
+  3 | import React, { useState, useCallback } from 'react';
+> 4 | import { Header } from '@/components/Header';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+  6 | import { Chatbot } from '@/components/Chatbot';
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+
+Import map: aliased to relative './components/Header' inside of [project]/histopath
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[04:15:56.885] Browser ERROR   ./histopath/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/ImageAnalyzer'
+  3 | import React, { useState, useCallback } from 'react';
+  4 | import { Header } from '@/components/Header';
+> 5 | import { ImageAnalyzer } from '@/components/ImageAnalyzer';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Chatbot } from '@/components/Chatbot';
+  7 | import { AnalysisResult, ChatMessage } from '@/types';
+  8 |
+
+Import map: aliased to relative './components/ImageAnalyzer' inside of [project]/histopath
+
+Import traces:
+  Client Component Browser:
+    ./histopath/app/page.tsx [Client Component Browser]
+    ./histopath/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./histopath/app/page.tsx [Client Component SSR]
+    ./histopath/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[04:15:56.885] Browser ERROR   ./histopath/app/layout.tsx:4:1
+Module not found: Can't resolve '@/components/theme-provider'
+  2 | import { Inter } from "next/font/google";
+  3 | import "./globals.css";
+> 4 | import { ThemeProvider } from "@/components/theme-provider"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const inter = Inter({ subsets: ["latin"] });
+  7 |
+
+Import map: aliased to relative './components/theme-provider' inside of [project]/histopath
+
+https://nextjs.org/docs/messages/module-not-found
+[04:15:56.963] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/home/sudolife/Documents/sudo/histopath/app'
+[04:15:56.973] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/home/sudolife/Documents/sudo/histopath/app'
+[04:15:56.999] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/home/sudolife/Documents/sudo/histopath/app'
+[04:15:57.009] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/home/sudolife/Documents/sudo/histopath/app'
+[04:15:57.033] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/home/sudolife/Documents/sudo/histopath/app'
+[04:15:57.042] Server  ERROR   Error: ENOENT: no such file or directory, scandir '/home/sudolife/Documents/sudo/histopath/app'
