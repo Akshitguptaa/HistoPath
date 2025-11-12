@@ -1,0 +1,26 @@
+# Technical Specifications for the Histopath AI Model
+
+## Model Architecture and Task
+- **Model Type:** Convolutional Neural Network (CNN).
+- **Base Architecture:** The model is a custom CNN architecture.
+- **Primary Task:** Binary Classification. The model is trained to classify a given image patch into one of two categories: "Metastatic" (containing cancer cells) or "Non-Metastatic" (healthy tissue). 
+
+## Training Dataset
+- **Dataset Name:** PatchCamelyon (PCam).
+- **Dataset Content:** The PCam dataset is a large, well-annotated collection of over 280,000 color image patches extracted from whole-slide images of lymph node sections.
+- **Image Specifications:** Each patch is a 96x96 pixel image. 
+- **Labeling:** Each patch is labeled as either tumor (metastatic) or normal (non-metastatic). [cite: 206] The dataset has a balanced distribution of metastatic and non-metastatic samples. 
+
+## Slide-Level Aggregation
+To extend patch-level predictions to slide-level analysis, Whole-Slide Images (WSIs) are divided into non-overlapping 96x96 patches.  Each patch is passed through the trained model, and the aggregated predictions are used to estimate the likelihood of tumor presence in the entire slide. 
+
+## Interpretability and Visualization
+- **Technique:** Grad-CAM (Gradient-weighted Class Activation Mapping).
+- **Purpose:** Grad-CAM produces a "heatmap" to make the CNN's decision-making process more understandable and interpretable.
+- **Heatmap Interpretation:** The heatmap highlights regions most likely containing metastasis. [cite: 185] "Hotter" colors (like red and yellow) indicate the specific visual features the model focused on to make its classification. This aids pathologists in decision support and builds trust. 
+
+## Known Limitations
+- **Not a Diagnostic Tool:** This AI model is an informational tool for assistance and research only. It is NOT a substitute for a diagnosis made by a qualified human pathologist.
+- **Generalization:** The model is trained on limited datasets (like PCam).  Its performance on images from different labs, scanners, or staining protocols is not guaranteed.
+- **Black-box Nature:** While Grad-CAM helps, CNNs can lack interpretability for clinical purposes, which can hinder clinical trust. 
+- **Narrow Evaluation:** Studies often report accuracy/AUC on patches, ignoring metrics like false negatives, robustness, or speed, which are critical in a real-world setting. 

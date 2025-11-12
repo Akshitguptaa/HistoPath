@@ -1,0 +1,16 @@
+# Foundational Concepts in Histopathology
+
+## What is Histopathology?
+Histopathology is a branch of medicine that involves the microscopic examination of biological tissues to observe the appearance of diseased cells and tissues in fine detail. It is a critical tool for making accurate diagnoses of many diseases, especially cancer. The process typically involves obtaining a tissue sample (biopsy), preserving it, slicing it into extremely thin layers, placing it on a glass slide, staining it to highlight different cell structures, and then examining it under a microscope.
+
+## Cancer and Metastasis
+Cancer is a disease characterized by the uncontrolled growth and spread of abnormal cells. If the spread is not controlled, it can result in death.
+
+Metastasis is the process by which cancer cells spread from the primary tumor (where they first formed) to other parts of the body. Cancer cells can break away from the primary tumor, travel through the bloodstream or the lymphatic system, and form new tumors (metastatic tumors) in other organs or tissues.
+
+The detection of metastasis is one of the most important factors in determining the stage of a cancer and the patient's prognosis. For many types of cancer, such as breast cancer, lymph nodes are often the first site of metastasis.
+
+## Whole-Slide Images (WSI) and Patches
+A Whole-Slide Image (WSI) is a high-resolution digital image of a complete pathology slide. It allows pathologists to view and analyze the tissue sample on a computer screen, much like they would with a traditional microscope.
+
+Because WSIs are massive (often several gigabytes in size), it is computationally intensive to analyze the entire image at once. Therefore, these images are often broken down into smaller, manageable sections called "patches". These patches are typically square, for example, 96x96 pixels, and are used as the direct input for analysis by AI models.

@@ -1,0 +1,19 @@
+# Glossary of Terms
+
+**AUC (Area Under the Curve):** A performance metric for classification models. It represents the model's ability to distinguish between positive and negative classes. A score of 1.0 is a perfect classifier, while 0.5 is no better than random chance.
+
+**CNN (Convolutional Neural Network):** A type of deep learning model specifically designed for processing and analyzing visual data, like images.
+
+**False Negative:** A test result which incorrectly indicates that a particular condition or attribute is absent. In this context, the model predicts "Non-Metastatic" when the patch actually contains cancer. This is a critical error to minimize.
+
+**False Positive:** A test result which incorrectly indicates that a particular condition or attribute is present. In this context, the model predicts "Metastatic" when the patch is actually healthy.
+
+**F1-Score:** A metric that combines Precision and Recall into a single number. It is the harmonic mean of the two and is useful for evaluating models on imbalanced datasets.
+
+**Grad-CAM (Gradient-weighted Class Activation Mapping):** An algorithm that produces a visual heatmap to explain which parts of an image a CNN focused on to make its prediction.
+
+**Precision:** A performance metric that measures the accuracy of positive predictions. It answers the question: "Of all the patches the model flagged as 'Metastatic', how many were actually metastatic?" High precision means a low false positive rate.
+
+**Recall (Sensitivity):** A performance metric that measures the model's ability to find all relevant cases. It answers the question: "Of all the patches that were truly 'Metastatic', how many did the model correctly identify?" High recall means a low false negative rate.
+
+**ResNet (Residual Network):** A specific, powerful architecture for a Convolutional Neural Network that helps in training very deep networks effectively.
