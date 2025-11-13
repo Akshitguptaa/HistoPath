@@ -6,7 +6,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Histopath - AI Metastasis Detection",
+  title: "HistoPath - AI Metastasis Detection",
   description: "An AI-powered web application for histopathologic detection of metastasis.",
 };
 

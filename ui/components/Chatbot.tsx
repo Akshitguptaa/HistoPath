@@ -71,8 +71,8 @@ export const Chatbot: React.FC<ChatbotProps> = ({ analysisResult, messages, setM
   };
 
   return (
-    <div className="flex flex-col grow bg-card text-card-foreground rounded-lg shadow-md border border-border">
-      <div className="flex-1 p-4 overflow-y-auto space-y-4">
+    <div className="flex flex-col h-full bg-card text-card-foreground rounded-lg shadow-md border border-border"> 
+      <div className="flex-1 p-4 overflow-y-auto space-y-4 min-h-0">
         {messages.length === 0 && (
           <div className="flex flex-col items-center justify-center h-full text-center text-muted-foreground">
             <SparklesIcon className="w-12 h-12 mb-2" />
@@ -107,6 +107,7 @@ export const Chatbot: React.FC<ChatbotProps> = ({ analysisResult, messages, setM
         )}
         <div ref={messagesEndRef} />
       </div>
+
       <div className="p-4 border-t border-border">
         <form onSubmit={handleSendMessage} className="flex items-center space-x-2">
           <input

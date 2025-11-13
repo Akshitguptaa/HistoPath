@@ -77,11 +77,11 @@ export const ImageAnalyzer: React.FC<ImageAnalyzerProps> = ({ onAnalysisComplete
   const triggerFileSelect = () => fileInputRef.current?.click();
 
   return (
-    <div className="flex flex-col grow bg-card text-card-foreground p-6 rounded-lg shadow-md border border-border space-y-4">
+    <div className="flex flex-col bg-card text-card-foreground p-6 rounded-lg shadow-md border border-border space-y-4 h-full overflow-y-scroll">
       <label
         onDrop={handleDrop}
         onDragOver={handleDragOver}
-        className="flex grow justify-center w-full min-h-48 px-4 transition bg-muted/50 border-2 border-border border-dashed rounded-md appearance-none cursor-pointer hover:border-brand-primary-400 focus:outline-none"
+        className="flex justify-center items-center w-full min-h-48 px-4 transition bg-muted/50 border-2 border-border border-dashed rounded-md appearance-none cursor-pointer hover:border-brand-primary-400 focus:outline-none"
       >
         <span className="flex items-center space-x-2">
            <PhotoIcon className="w-8 h-8 text-muted-foreground/80" />
@@ -95,6 +95,9 @@ export const ImageAnalyzer: React.FC<ImageAnalyzerProps> = ({ onAnalysisComplete
 
       {previewUrl && (
         <div className="relative rounded-lg overflow-hidden border border-border">
+          {/* 3. 'object-contain' is CORRECT. It ensures the
+               full image is shown, scaled to fit the width.
+           */}
           <img src={previewUrl} alt="Patch preview" className="w-full object-contain" />
           {result && (
             <img 
@@ -117,7 +120,8 @@ export const ImageAnalyzer: React.FC<ImageAnalyzerProps> = ({ onAnalysisComplete
             <>
                 <svg className="animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
                     <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
-                    <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                    <path className="opacity-75" fill="currentColor" d="M4 12a8 8
+0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
                 </svg>
                 Analyzing...
             </>

@@ -23,18 +23,18 @@ const Home: React.FC = () => {
   }, []);
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="h-screen flex flex-col">
       <Header />
-      <main className="flex flex-col grow p-4 sm:p-6 lg:p-8 overflow-hidden">
-        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-8 grow w-full">
+      <main className="flex-1 flex flex-col p-4 sm:p-6 lg:p-8 overflow-hidden">
+        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-8 w-full flex-1 min-h-0">
           
           <div className="lg:w-1/2 flex flex-col">
-            <h2 className="text-2xl font-bold mb-4 text-foreground">Image Analysis</h2>
+            <h2 className="text-2xl font-bold mb-4 text-foreground shrink-0">Image Analysis</h2>
             <ImageAnalyzer onAnalysisComplete={handleAnalysisComplete} />
           </div>
 
-          <div className="lg:w-1/2 flex flex-col">
-            <h2 className="text-2xl font-bold mb-4 text-foreground">Chat Assistant</h2>
+          <div className="lg:w-1/2 flex flex-col min-h-0">
+            <h2 className="text-2xl font-bold mb-4 text-foreground shrink-0">Chat Assistant</h2>
             <Chatbot
               analysisResult={analysisResult}
               messages={chatMessages}
@@ -45,8 +45,8 @@ const Home: React.FC = () => {
           </div>
         </div>
       </main>
-      <footer className="text-center p-4 text-muted-foreground text-sm">
-        <p>&copy; 2025 Histopath. AI for medical imaging.</p>
+      <footer className="text-center p-4 text-muted-foreground text-sm shrink-0">
+        <p>&copy; 2025 HistoPath. AI for medical imaging.</p>
       </footer>
     </div>
   );

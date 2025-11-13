@@ -1,4 +1,4 @@
-# Technical Specifications for the Histopath AI Model
+# Technical Specifications for the HistoPath AI Model
 
 ## Model Architecture and Task
 - **Model Type:** Convolutional Neural Network (CNN).
