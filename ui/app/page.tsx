@@ -46,7 +46,7 @@ const Home: React.FC = () => {
         </div>
       </main>
       <footer className="text-center p-4 text-muted-foreground text-sm shrink-0">
-        <p>&copy; 2025 HistoPath. AI for medical imaging.</p>
+        <p>&copy; 2025 HistoPath.</p>
       </footer>
     </div>
   );

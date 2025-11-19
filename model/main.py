@@ -19,7 +19,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-model_path = "model.h5"
+# model_path = "model.h5"
+model_path = "custom.h5"
 try:
     model = load_model(model_path)
     print(f"Successfully loaded model from {model_path}")
