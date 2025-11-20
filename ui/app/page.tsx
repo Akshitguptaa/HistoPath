@@ -5,10 +5,13 @@ import { Header } from '@/components/Header';
 import { ImageAnalyzer } from '@/components/ImageAnalyzer';
 import { Chatbot } from '@/components/Chatbot';
 import { AnalysisResult, ChatMessage } from '@/types';
+import { useLocalStorage } from '@/hooks/useLocalStorage'; // Import hook
 
 const Home: React.FC = () => {
   const [analysisResult, setAnalysisResult] = useState<AnalysisResult | null>(null);
-  const [chatMessages, setChatMessages] = useState<ChatMessage[]>([]);
+  
+  const [chatMessages, setChatMessages, clearChatMessages] = useLocalStorage<ChatMessage[]>('chat-history', []);
+  
   const [isChatLoading, setIsChatLoading] = useState(false);
 
   const handleAnalysisComplete = useCallback((result: AnalysisResult) => {
@@ -20,7 +23,7 @@ const Home: React.FC = () => {
             parts: [{ text: `Analysis complete. The model predicts: **${result.prediction}** with ${Math.round(result.confidence * 100)}% confidence. Feel free to ask me any questions about this result or general histopathology.` }]
         }
     ]);
-  }, []);
+  }, [setChatMessages]);
 
   return (
     <div className="h-screen flex flex-col">
@@ -41,6 +44,7 @@ const Home: React.FC = () => {
               setMessages={setChatMessages}
               isLoading={isChatLoading}
               setIsLoading={setIsChatLoading}
+              onClearHistory={clearChatMessages} 
             />
           </div>
         </div>
