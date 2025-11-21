@@ -1,0 +1,29 @@
+Dataset Name: PatchCamelyon (PCam)
+Domain: Histopathology / Cancer Detection
+Source: Derived from the Camelyon16 Challenge dataset
+
+--- Dataset Overview ---
+The PatchCamelyon (PCam) benchmark is a widely used image classification dataset consisting of 327,680 color images extracted from histopathologic scans of lymph node sections. It is designed to bridge the gap between clinically relevant tasks and fundamental machine learning research. The dataset provides a binary classification task: identifying the presence of metastatic tissue in small image patches.
+
+PCam is often compared to CIFAR-10 and MNIST in terms of its ease of use for machine learning practitioners, but it offers the complexity of real-world medical imaging data. It is trainable on a single GPU, making it accessible for research into active learning, model uncertainty, and explainability in medical AI.
+
+--- Key Features ---
+- Total Images: 327,680
+- Image Format: Color (RGB)
+- Resolution: 96 x 96 pixels
+- Bit Depth: 8-bit
+- Task: Binary Classification (Tumor vs. Normal)
+
+--- Data Splits ---
+The dataset is pre-divided to ensure consistent benchmarking:
+- Training Set: 262,144 images (2^18)
+- Validation Set: 32,768 images (2^15)
+- Test Set: 32,768 images (2^15)
+
+--- Labeling and Class Balance ---
+- Class Balance: The dataset is balanced with a roughly 50/50 split between positive (tumor) and negative (normal) examples across all splits.
+- Label Definition: A positive label (1) indicates that the central 32x32 pixel region of the patch contains at least one pixel of tumor tissue. Tumor tissue located in the outer margin (outside the center 32x32 box) does not influence the label.
+- Purpose of Margins: The outer region allows for the development of fully convolutional models that do not require zero-padding, ensuring consistent behavior when the model is applied to larger Whole Slide Images (WSIs).
+
+--- Origin ---
+The images are derived from 400 H&E-stained Whole Slide Images (WSIs) of sentinel lymph node sections acquired for the Camelyon16 challenge. The slides were digitized at 40x magnification (0.243 microns per pixel) but were undersampled to 10x resolution for this dataset to increase the field of view while maintaining manageable file sizes.

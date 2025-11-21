@@ -77,7 +77,7 @@ export const ImageAnalyzer: React.FC<ImageAnalyzerProps> = ({ onAnalysisComplete
   const triggerFileSelect = () => fileInputRef.current?.click();
 
   return (
-    <div className="flex flex-col bg-card text-card-foreground p-6 rounded-lg shadow-md border border-border space-y-4 h-full overflow-y-scroll">
+    <div className="flex flex-col bg-card text-card-foreground p-6 rounded-lg shadow-md border border-border space-y-4 overflow-y-scroll">
       <label
         onDrop={handleDrop}
         onDragOver={handleDragOver}
@@ -95,9 +95,6 @@ export const ImageAnalyzer: React.FC<ImageAnalyzerProps> = ({ onAnalysisComplete
 
       {previewUrl && (
         <div className="relative rounded-lg overflow-hidden border border-border">
-          {/* 3. 'object-contain' is CORRECT. It ensures the
-               full image is shown, scaled to fit the width.
-           */}
           <img src={previewUrl} alt="Patch preview" className="w-full object-contain" />
           {result && (
             <img 
