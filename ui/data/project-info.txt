@@ -4,10 +4,9 @@ Histopathologic Detection of Metastasis using Convolutional Neural Networks (CNN
 Project Objectives
 1. Implement a CNN-based model trained on the PatchCamelyon dataset. 
 2. Extend patch-level predictions to slide-level analysis by aggregating results.
-3. Generate interpretable heatmaps to localize tumor regions.
-4. Develop a user-friendly web-based platform. 
-5. Provide a chatbot assistant to guide users. 
-6. Improve diagnostic accuracy and reduce pathologist workload.
+3. Develop a user-friendly web-based platform. 
+4. Provide a chatbot assistant to guide users. 
+5. Improve diagnostic accuracy and reduce pathologist workload.
 
 Key System Features
 - **Web-Based User Interface:** An intuitive platform for uploading histopathology patches, viewing model predictions, and analyzing tumor localization with interactive heatmaps. [cite: 186, 201, 220, 221, 222]

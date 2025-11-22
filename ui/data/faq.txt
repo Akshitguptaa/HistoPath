@@ -9,8 +9,5 @@ A: The confidence score (e.g., 95%) reflects the model's internal certainty abou
 Q: Can this tool replace a pathologist or be used for primary diagnosis?
 A: Absolutely not. This is a decision-support and research tool only. It is designed to assist pathologists by flagging areas of interest, potentially speeding up workflow. It should never be used for primary diagnosis, and all AI-generated findings must be confirmed by a human expert.
 
-Q: What do the colors on the heatmap represent?
-A: The heatmap is a visual explanation of the model's decision. Bright, "hot" areas (reds and yellows) are the regions the model paid the most attention to when making its prediction. Blue or transparent areas were less influential. If the model predicts "Metastatic", these hot areas are where it believes it "sees" tumor-like features.
-
 Q: Why did the model not produce a heatmap for a "Non-Metastatic" prediction?
 A: The heatmap is designed to show *why* the model made a positive prediction. In the case of a "Non-Metastatic" result, there are no specific tumor-like regions to highlight. The absence of a heatmap signifies that the model did not find significant evidence of metastasis in the patch.
