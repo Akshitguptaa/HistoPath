@@ -89,7 +89,9 @@ ${kbContext}
           data: {
             userId: userId,
             message: prompt,
-            response: responseText
+            response: responseText,
+            prediction: analysisResult?.prediction,
+            confidence: analysisResult?.confidence,
           }
         });
       }).catch(dbError => {

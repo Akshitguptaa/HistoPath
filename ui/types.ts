@@ -1,11 +1,15 @@
 export interface AnalysisResult {
   prediction: 'Metastatic' | 'Non-Metastatic';
   confidence: number;
-  heatmapUrl: string;
+  gradcam: {
+    original: string;
+    heatmap: string;
+    overlay: string;
+  };
 }
 
 export interface ChatMessagePart {
-    text: string;
+  text: string;
 }
 
 export interface ChatMessage {

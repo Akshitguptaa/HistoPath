@@ -19,6 +19,9 @@ model Chat {
   userId    String
   user      User      @relation(fields: [userId], references: [id])
   message   String    // User's question
-  response  String    // AI's answer
+  response  String
+  prediction String?
+  confidence Float?
+  heatmapUrl String?
   createdAt DateTime  @default(now())
 }

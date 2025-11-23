@@ -45,8 +45,9 @@ export default function DashboardClient({ chats: initialChats, userName }: Dashb
 
         if (filter === "ALL") return matchesSearch;
 
-        const isMeta = chat.response.toLowerCase().includes("metastatic") && !chat.response.toLowerCase().includes("non-metastatic");
-        const isNonMeta = chat.response.toLowerCase().includes("non-metastatic");
+        const isMeta = chat.prediction?.toLowerCase().includes("metastatic") ||
+            (chat.response.toLowerCase().includes("metastatic") && !chat.response.toLowerCase().includes("non-metastatic"));
+        const isNonMeta = chat.prediction?.toLowerCase().includes("non") || chat.response.toLowerCase().includes("non-metastatic");
 
         if (filter === "META") return matchesSearch && isMeta;
         if (filter === "NON_META") return matchesSearch && isNonMeta;
@@ -55,8 +56,14 @@ export default function DashboardClient({ chats: initialChats, userName }: Dashb
     });
 
     const totalScans = chats.length;
-    const metastaticCount = chats.filter(c => c.response.toLowerCase().includes("metastatic") && !c.response.toLowerCase().includes("non-metastatic")).length;
-    const nonMetastaticCount = chats.filter(c => c.response.toLowerCase().includes("non-metastatic")).length;
+    const metastaticCount = chats.filter(c =>
+        c.prediction?.toLowerCase().includes("metastatic") ||
+        (c.response.toLowerCase().includes("metastatic") && !c.response.toLowerCase().includes("non-metastatic"))
+    ).length;
+    const nonMetastaticCount = chats.filter(c =>
+        c.prediction?.toLowerCase().includes("non") ||
+        c.response.toLowerCase().includes("non-metastatic")
+    ).length;
 
     return (
         <div className="container py-8 max-w-6xl mx-auto space-y-8">
@@ -161,6 +168,21 @@ export default function DashboardClient({ chats: initialChats, userName }: Dashb
                                     </div>
                                 </div>
 
+                                {chat.prediction && (
+                                    <div className="flex items-center gap-4 text-sm">
+                                        <div className="flex items-center gap-2">
+                                            <span className="text-muted-foreground">Prediction:</span>
+                                            <span className="font-semibold">{chat.prediction}</span>
+                                        </div>
+                                        {chat.confidence && (
+                                            <div className="flex items-center gap-2">
+                                                <span className="text-muted-foreground">Confidence:</span>
+                                                <span className="font-semibold">{Math.round(chat.confidence * 100)}%</span>
+                                            </div>
+                                        )}
+                                    </div>
+                                )}
+
                                 <div className="grid md:grid-cols-2 gap-6 mt-2">
                                     <div className="bg-muted/30 p-4 rounded-lg">
                                         <span className="text-xs font-bold text-muted-foreground uppercase tracking-wider mb-2 block">Input Query</span>
@@ -173,6 +195,13 @@ export default function DashboardClient({ chats: initialChats, userName }: Dashb
                                         </p>
                                     </div>
                                 </div>
+
+                                {chat.heatmapUrl && (
+                                    <div className="mt-4">
+                                        <span className="text-xs font-bold text-muted-foreground uppercase tracking-wider mb-2 block">Analysis Heatmap</span>
+                                        <img src={chat.heatmapUrl} alt="Analysis Heatmap" className="rounded-lg border max-w-md" />
+                                    </div>
+                                )}
                             </div>
                         ))}
                     </div>

@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useRef, useEffect } from 'react';
+import { useRouter } from 'next/navigation';
 import { AnalysisResult, ChatMessage } from '@/types';
 import { PaperAirplaneIcon } from '@/components/icons/PaperAirplaneIcon';
 import { SparklesIcon } from '@/components/icons/SparklesIcon';
@@ -26,6 +27,7 @@ export const Chatbot: React.FC<ChatbotProps> = ({
   const [input, setInput] = useState('');
   const [error, setError] = useState<string | null>(null);
   const messagesEndRef = useRef<HTMLDivElement>(null);
+  const router = useRouter();
 
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
@@ -61,10 +63,15 @@ export const Chatbot: React.FC<ChatbotProps> = ({
 
       const contentType = response.headers.get("content-type");
       if (contentType && contentType.includes("text/html")) {
-        throw new Error("Authentication session expired. Please sign in again.");
+        router.push('/sign-in');
+        throw new Error("Authentication session expired. Redirecting...");
       }
 
       if (!response.ok) {
+        if (response.status === 401) {
+          router.push('/sign-in');
+          throw new Error("Please sign in to continue.");
+        }
         let errorMessage = 'Failed to get response from server.';
         try {
           const errorData = await response.json();
