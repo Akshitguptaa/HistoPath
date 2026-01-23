@@ -1,4 +1,4 @@
-# HistoPath: AI-Powered Histopathology Analysis Pipeline
+# HistoPath
 
 ![Next.js](https://img.shields.io/badge/Next.js_16-black?logo=next.js) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?logo=fastapi) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow) ![License](https://img.shields.io/badge/License-MIT-green)
 
@@ -69,3 +69,4 @@ Contributions to the CNN architecture or UI are welcome. Please open an issue or
 
 ## License
 MIT License. See [LICENSE](LICENSE) for more information.
+
